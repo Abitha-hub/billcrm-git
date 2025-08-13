@@ -13,6 +13,8 @@ class _LoginPageState extends State<LoginPage> {
   final TextEditingController _passwordController = TextEditingController();
   bool _obscure = true;
 
+  // Added by Binu Paul 10.11 am
+
   /// Runs when the user taps the Login button.
   void _handleLogin() {
     final username = _usernameController.text.trim();
@@ -139,3 +141,4 @@ class _LoginPageState extends State<LoginPage> {
     );
   }
 }
+
